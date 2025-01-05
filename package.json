@@ -1,0 +1,32 @@
+{
+  "name": "callbackmanager",
+  "version": "1.0.0",
+  "description": "A lightweight and flexible callback management library for JavaScript. Easily add, organize, and execute callback functions.",
+  "main": "callbackmanager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepdooper/callbackmanager.git"
+  },
+  "keywords": [
+    "callback",
+    "hooks",
+    "events",
+    "event-driven",
+    "callback-manager",
+    "function-hooks",
+    "event-handling",
+    "callback-system",
+    "custom-callbacks",
+    "async-callbacks",
+    "event-listeners"
+  ],
+  "author": "Joep Dooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joepdooper/callbackmanager/issues"
+  },
+  "homepage": "https://github.com/joepdooper/callbackmanager#readme"
+}
