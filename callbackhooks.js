@@ -1,6 +1,6 @@
-// CallbackManager - v1.0.0
+// CallbackHooks - v1.0.0
 
-const CallbackManager = {
+const CallbackHooks = {
     callbacks: {},
 
     add: function (name, func) {
@@ -15,4 +15,4 @@ const CallbackManager = {
     }
 };
 
-export {CallbackManager};
+export {CallbackHooks};
