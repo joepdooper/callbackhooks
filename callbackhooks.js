@@ -1,18 +1,20 @@
-// CallbackHooks - v1.0.0
+// CallbackHooks - v2.0.0
 
-const CallbackHooks = {
-    callbacks: {},
+class CallbackHooks {
+    constructor() {
+        this.callbacks = {};
+    }
 
-    add: function (name, func) {
+    add(name, func) {
         if (!this.callbacks[name]) this.callbacks[name] = [];
         this.callbacks[name].push(func);
-    },
+    }
 
-    call: function (name, params) {
+    call(name, params) {
         if (this.callbacks[name]) {
             this.callbacks[name].forEach(func => func(params));
         }
     }
-};
+}
 
-export {CallbackHooks};
+export { CallbackHooks };

@@ -1,8 +1,9 @@
 {
   "name": "callbackhooks",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A lightweight and flexible callback management library for JavaScript. Easily add, organize, and execute callback functions.",
   "main": "callbackhooks.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
