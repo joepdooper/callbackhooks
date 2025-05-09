@@ -1,6 +1,6 @@
 {
   "name": "callbackhooks",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A lightweight and flexible callback management library for JavaScript. Easily add, organize, and execute callback functions.",
   "main": "callbackhooks.js",
   "type": "module",
