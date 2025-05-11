@@ -37,29 +37,6 @@ hooks.call('userLogin', { name: 'Joe', age: 30 });
 hooks.call('userLogout');
 ```
 
-## API
-
-`new CallbackHooks()`
-Creates a new, isolated instance.
-
-`.add(eventName, callback)`
-Adds a callback to the specified event name.
-
-`eventName (string)`
-The name of the event.
-
-`callback (function)`
-The function to be called when the event is triggered.
-
-`.call(eventName, params)`
-Triggers the event, executing all associated callbacks.
-
-`eventName (string)`
-The name of the event to trigger.
-
-`params (any)`
-The data to pass to each callback.
-
 ## Example Use Cases
 
 - Plugin systems
