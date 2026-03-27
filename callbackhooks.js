@@ -1,5 +1,3 @@
-// CallbackHooks - v2.0.0
-
 class CallbackHooks {
     constructor() {
         this.callbacks = {};
